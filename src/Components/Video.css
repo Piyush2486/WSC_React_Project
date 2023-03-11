@@ -1,0 +1,66 @@
+.Video {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Video__input {
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.Video__button {
+  margin-left: 140px;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background-color: #008cff;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.Video__button:hover {
+  background-color: #0064b7;
+}
+
+.Video__back-button {
+  margin-bottom: 200px;
+  margin-right: 80px;
+  padding: 10px 50px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+}
+
+.Video__back-button a {
+  text-decoration: none;
+  color: #008cff;
+}
+
+.Video__back-button a:hover {
+  text-decoration: underline;
+}
+
+.Text {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: -160px;
+}
